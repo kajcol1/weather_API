@@ -1,5 +1,6 @@
 import requests
 
+# This is the test API credentials
 api_key = '30d4741c779ba94c470ca1f63045390a'
 
 user_input = input("Enter city: ")
@@ -12,7 +13,6 @@ if weather_data.json()['cod'] == '404':
 else:
     weather = weather_data.json()['weather'][0]['main']
     temp = round(weather_data.json()['main']['temp'])
-
 
     print(f"The weather in {user_input} is: {hourly}")
     print(f"The temperature in {user_input} is: {daily}ºC")
