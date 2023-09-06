@@ -10,7 +10,7 @@ class WeatherApp(QWidget):
 
         self.api_key = '30d4741c779ba94c470ca1f63045390a'
 
-        self.city_label = QLabel("Select a city:")
+        self.city_label = QLabel("Put a city name or select from the list:")
         self.city_combo = QComboBox()
         self.city_combo.setEditable(True)
         self.city_combo.setCompleter(None)  # Disable autocompletion
