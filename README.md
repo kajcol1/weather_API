@@ -14,8 +14,3 @@ This Python script is a simple weather information retrieval tool using the Open
 
 5. **Display Weather Information:** Finally, the script prints the current weather condition (e.g., "Clouds," "Rain") and the temperature in Celsius for the specified city. However, there are two variables used in the `print` statements, `hourly` and `daily`, which are not defined anywhere in the script. These should be replaced with `weather` and `temp`, respectively, to correctly display the data.
 
-**Improvements Needed:**
-
-- Replace `hourly` and `daily` with `weather` and `temp` in the print statements to display the correct information.
-- Add error handling for potential network issues or exceptions during the API request.
-- Consider adding more features, such as extended weather forecasts or additional weather details, to enhance the functionality of the script.
